@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="#E8E0D2EA"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/module"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toStartOf="@id/module"
+        android:text="TDM2"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#DD070707"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@id/heureF"
+        android:text="02/05/2020"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/EnsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/module"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/heurD"
+        android:text="Mr.Mostefai"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/heurD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/module"
+        android:layout_toStartOf="@id/text"
+        android:text="13:00"
+        android:textColor="#3D3D3D"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/module"
+        android:layout_toStartOf="@id/heureF"
+        android:text=" - "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/heureF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/module"
+        android:layout_alignParentEnd="true"
+        android:text="15:00"
+        android:textColor="#414141"
+        android:textSize="16sp" />
+
+
+
+    <TextView
+        android:id="@+id/salle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heureF"
+        android:layout_alignParentEnd="true"
+        android:text="DPGR"
+        android:textColor="#575555"
+        android:textSize="18sp" />
+
+</RelativeLayout>

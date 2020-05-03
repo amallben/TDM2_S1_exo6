@@ -1,0 +1,86 @@
+{
+  "count":3,
+  "seances":[
+    {
+      "seanceId": 0,
+      "jour": "03-05-2020",
+      "semaine": "1",
+      "heureD": "09:00",
+      "heureF": "11:00",
+      "module": "TDM2",
+      "salle": "Visio",
+      "enseignant": "Mr.Mostefai"
+    },
+     {
+      "seanceId": 1,
+      "jour": "14-05-2020",
+      "semaine": "1",
+      "heureD": "08:00",
+      "heureF": "12:00",
+      "module": "PRJ",
+      "salle": "DPGR",
+      "enseignant": "Mr.Batata"
+    },
+     {
+      "seanceId": 2,
+      "jour": "04-05-2020",
+      "semaine": "1",
+      "heureD": "09:00",
+      "heureF": "10:30",
+      "module": "PDJ",
+      "salle": "A4",
+      "enseignant": "Mr.Challal"
+    },
+    {
+      "seanceId": 3,
+      "jour": "06-05-2020",
+      "semaine": "2",
+      "heureD": "10:00",
+      "heureF": "12:00",
+      "module": "ML",
+      "salle": "S15",
+      "enseignant": "Mme.Benatchba"
+    },
+    {
+      "seanceId": 4,
+      "jour": "06-05-2020",
+      "semaine": "2",
+      "heureD": "13:00",
+      "heureF": "15:00",
+      "module": "ALOG",
+      "salle": "CP4",
+      "enseignant": "Mr.Chebeib"
+    },
+    {
+      "seanceId": 5,
+      "jour": "10-05-2020",
+      "semaine": "2",
+      "heureD": "09:00",
+      "heureF": "12:00",
+      "module": "TDM1",
+      "salle": "Visio",
+      "enseignant": "Mr.Mostefai"
+    },
+    {
+      "seanceId": 6,
+      "jour": "10-05-2020",
+      "semaine": "3",
+      "heureD": "13:00",
+      "heureF": "15:00",
+      "module": "ML",
+      "salle": "MC",
+      "enseignant": "Mr.Aries"
+    },
+
+    {
+      "seanceId": 7,
+      "jour": "17-05-2020",
+      "semaine": "3",
+      "heureD": "10:00",
+      "heureF": "12:30",
+      "module": "SGBD",
+      "salle": "CP6",
+      "enseignant": "Mme.Benkrid"
+    }
+  ]
+}
